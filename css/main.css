@@ -24,7 +24,17 @@ body{
 .itens-navegacao a:hover{
     text-decoration: underline;
 }
+.login{
+    width: 150px;
+    padding: 10px;
+    background: #82A3DA;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
 
+/*--------------*/
 .google-imagem{
     display: flex;
     align-items: center;
@@ -79,6 +89,7 @@ body{
 }
 .teclado, .microfone{
     cursor: pointer;
+    padding: 5px;
 }
 .botoes{
     margin-top: 30px;
@@ -103,5 +114,5 @@ body{
 }
 .rodape{
     height: 15vh;
-    background: black;
+    background: #171717;
 }
