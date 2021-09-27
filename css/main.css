@@ -13,7 +13,6 @@ body{
     align-items: center;
     justify-content: flex-end;
     height: 5vh;
-    background: gold;
 }
 .itens-navegacao a{
     color: #fff;
@@ -24,4 +23,22 @@ body{
 }
 .itens-navegacao a:hover{
     text-decoration: underline;
+}
+
+.google-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    background: chartreuse;
+    margin-top: 20px;
+}
+
+/*INPUT E BOTOES*/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30vh;
+    background: deeppink;
 }
