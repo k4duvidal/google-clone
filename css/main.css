@@ -7,6 +7,7 @@ body{
     background: #202124;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 .itens-navegacao{
     display: flex;
@@ -45,19 +46,24 @@ body{
     width: 600px;
     height: 42px;
     border-radius: 24px;
-    border: 1px solid #fff;
+    border: 2px solid #303134;
 }
 .caixa-texto{
     width: 75%;
     margin: 0 auto;
     border: none;
-    background: #202124;
+    background-color: transparent;
     color: #fff;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .caixa:hover{
     background: #303134;
+    border: none;
+
+}
+.caixa-texto:focus{
+    outline: none;
 }
 
 
