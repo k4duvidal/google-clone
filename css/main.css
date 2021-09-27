@@ -14,12 +14,11 @@ body{
     align-items: center;
     justify-content: flex-end;
     padding: 20px;
-    height: 5vh;
+    height: 10vh;
 }
 .itens-navegacao a{
     color: #fff;
     padding: 10px;
-    margin: 20px 5px 0px 0px;
     text-decoration: none;
 }
 .itens-navegacao a:hover{
@@ -30,9 +29,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 20vh;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    height: 22vh;
 }
 .google-imagem img{
     width: 300px;
@@ -43,7 +40,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 33vh;
+
 }
 .caixa{
     display: flex;
@@ -52,6 +50,7 @@ body{
     height: 42px;
     border-radius: 24px;
     border: 2px solid #303134;
+    margin-top: 30px;
 }
 .caixa-texto{
     width: 75%;
@@ -71,8 +70,6 @@ body{
     outline: none;
 }
 
-
-
 .botoes{
     margin-top: 30px;
 }
@@ -84,10 +81,10 @@ body{
     color: #fff;
     font-weight: bold;
     border-radius: 6px;
-    border: none;
+    border: 0.2px solid #202124;
 }
 .botao:hover{
-    border-style: ;
+    border-color: #fff;
     cursor: pointer;
 }
 
