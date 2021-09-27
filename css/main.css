@@ -17,8 +17,7 @@ body{
 .itens-navegacao a{
     color: #fff;
     padding: 10px;
-    margin-right: 10px;
-    background: tomato;
+    margin: 20px 10px 0px 10px;
     text-decoration: none;
 }
 .itens-navegacao a:hover{
@@ -30,7 +29,6 @@ body{
     align-items: center;
     justify-content: center;
     height: 20vh;
-    background: chartreuse;
     margin-top: 20px;
 }
 
@@ -40,5 +38,35 @@ body{
     flex-direction: column;
     align-items: center;
     height: 30vh;
-    background: deeppink;
+}
+.caixa{
+    display: flex;
+    background: #202124;
+    width: 600px;
+    height: 42px;
+    border-radius: 24px;
+    border: 1px solid #fff;
+}
+.caixa-texto{
+    width: 75%;
+    margin: 0 auto;
+    border: none;
+    background: #202124;
+    color: #fff;
+    font-size: 20px;
+
+}
+.caixa:hover{
+    background: #303134;
+}
+
+
+
+.botoes{
+    margin-top: 20px;
+}
+.botao{
+    padding: 10px;
+    width: 150px;
+    margin-right: 10px;
 }
