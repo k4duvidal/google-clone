@@ -8,3 +8,20 @@ body{
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+.itens-navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 5vh;
+    background: gold;
+}
+.itens-navegacao a{
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    background: tomato;
+    text-decoration: none;
+}
+.itens-navegacao a:hover{
+    text-decoration: underline;
+}
