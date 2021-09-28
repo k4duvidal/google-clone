@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.google.com/favicon.ico">
     <link rel="stylesheet" href="./css/main.css">
     <title>Google</title>
 </head>
@@ -24,13 +25,13 @@
     <div class="container">
         <div class="caixa">
             <i class="fas fa-search"></i>
-            <input type="text" class="caixa-texto">
+            <input type="text" id="entrada" class="caixa-texto">
             <i class="fas fa-keyboard teclado"></i>
             <i class="fas fa-microphone microfone"></i>
         </div>
 
         <div class="botoes">
-            <button class="botao">Pesquisa Google</button>
+            <button class="botao" onclick="pesquisaGoogle()">Pesquisa Google</button>
             <button class="botao">Estou com sorte</button>
         </div>
     </div>
@@ -38,7 +39,7 @@
     <div class="vazio"></div>
     <footer class="rodape"></footer>
 
-
+    <script src="./js/main.js"></script>
     <script src="https://kit.fontawesome.com/afed4bf89e.js" crossorigin="anonymous"></script>
 </body>
 </html>
