@@ -5,7 +5,7 @@
 }
 body{
     background: #202124;
-    color: #fff;
+    color: #bdc1c6;;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
@@ -25,13 +25,17 @@ body{
     text-decoration: underline;
 }
 .login{
-    width: 150px;
-    padding: 10px;
-    background: #82A3DA;
+    width: 130px;
+    padding: 12px;
+    background: #8ab4f8;
     border: none;
     border-radius: 3px;
-    font-weight: bold;
+    font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-seri;
+    font-weight: 500;
+    font-size: 14px;
     cursor: pointer;
+    margin-left: 10px;
+    text-align: center;
 }
 
 /*--------------*/
@@ -57,17 +61,17 @@ body{
     display: flex;
     background: #202124;
     width: 600px;
-    height: 42px;
+    height: 43.99px;
     border-radius: 24px;
     border: 1px solid #303134;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .caixa-texto{
     width: 75%;
     margin: 0 auto;
     border: none;
     background-color: transparent;
-    color: #fff;
+    color: #bdc1c6;
     font-size: 18px;
 
 }
@@ -100,12 +104,12 @@ body{
     margin-right: 10px;
     background-color: #303134;
     color: #fff;
-    font-weight: bold;
+    font-size: 14px;
     border-radius: 6px;
     border: 0.2px solid #202124;
 }
 .botao:hover{
-    border-color: #fff;
+    border-color: #bdc1c6;;
     cursor: pointer;
 }
 
