@@ -103,6 +103,12 @@ body{
     cursor: pointer;
     margin-right: 2px;
 }
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
 .teclado, .microfone, .limpar{
     cursor: pointer;
     padding: 7px;
