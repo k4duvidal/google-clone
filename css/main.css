@@ -62,7 +62,7 @@ body{
 }
 .caixa{
     display: flex;
-    background: #202124;
+    background: transparent;
     width: 600px;
     height: 44px;
     border-radius: 24px;
@@ -76,14 +76,15 @@ body{
     background-color: transparent;
     color: #bdc1c6;
     font-size: 18px;
-    height: 44px;
+    height: 42px;
+   
 
 }
 .caixa:hover{
     background: #303134;
-    border: none;
-
+    border: 1px solid transparent;
 }
+
 .caixa-texto:focus{
     outline: none;
 }
@@ -96,9 +97,9 @@ body{
     margin-left: 20px;
 }
 .limpar{
-    color: #fff;
+    color:  #5f6368;
     padding: 10px;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
 }
 .teclado, .microfone{
