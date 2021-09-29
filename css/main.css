@@ -93,18 +93,24 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 20px;
-    margin-left: 20px;
+    font-size: 18px;
 }
 .limpar{
     color:  #5f6368;
     padding: 10px;
-    font-size: 20px;
     text-decoration: none;
-}
-.teclado, .microfone{
+    text-align: center;
     cursor: pointer;
-    padding: 5px;
+    margin-right: 2px;
+}
+.teclado, .microfone, .limpar{
+    cursor: pointer;
+    padding: 7px;
+    font-size: 20px;
+    margin: 0 10px 0 10px ;
+}
+.icone-pesquisa{
+    margin: 0 20px 0 20px ;
 }
 .botoes{
     margin-top: 30px;
